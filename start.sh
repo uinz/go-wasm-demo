@@ -1,0 +1,1 @@
+GOARCH=wasm GOOS=js go build -o server/test.wasm main.go && cd server && go run main.go
